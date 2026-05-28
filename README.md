@@ -66,6 +66,10 @@ Time Stamp (ms), qw, qx, qy, qz
 
 The header line is auto-detected and skipped.
 
+## Legacy version
+
+The pre-refactor script (no CLI, hardcoded settings in the `__main__` block) is kept under [`legacy/manual_commutation.py`](legacy/manual_commutation.py) for reference. Edit the `base`, `port`, and `device_folder` values at the bottom of that file before running.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
